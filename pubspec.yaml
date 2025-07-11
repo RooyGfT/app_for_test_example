@@ -1,0 +1,29 @@
+name: app_for_test_example
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.7
+  dartz: ^0.10.1
+  shared_preferences: ^2.5.3
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.5.4
+  riverpod_generator: ^2.6.5
+  mockito: ^5.4.6
+
+flutter:
+  uses-material-design: true
